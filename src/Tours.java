@@ -1,16 +1,13 @@
-package com.example.throunapp;
-
-
 public class Tours {
 
-    public Tours(String title, String description, int price, String host, Location location, Time dateAndTime, int availabilty, Review review) {
+    public Tours(String title, String description, int price, String host, Location location, Time dateAndTime, int availability, Review review) {
         this.title = title;
         this.description = description;
         this.price = price;
         this.host = host;
         this.location = location;
         this.dateAndTime = dateAndTime;
-        this.availabilty = availabilty;
+        this.availability = availability;
         this.review = review;
     }
     private String title;
@@ -65,12 +62,12 @@ public class Tours {
         this.dateAndTime = dateAndTime;
     }
 
-    public int getAvailabilty() {
-        return availabilty;
+    public int getAvailability() {
+        return availability;
     }
 
-    public void setAvailabilty(int availabilty) {
-        this.availabilty = availabilty;
+    public void setAvailability(int availability) {
+        this.availability = availability;
     }
 
     public Review getReview() {
@@ -89,7 +86,7 @@ public class Tours {
 
     private Time dateAndTime;
 
-    private int availabilty;
+    private int availability;
 
     private Review review;
 }

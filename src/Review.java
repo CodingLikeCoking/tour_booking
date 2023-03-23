@@ -1,5 +1,3 @@
-package com.example.throunapp;
-
 public class Review {
     private int number;
     private int rating;

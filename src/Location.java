@@ -1,7 +1,3 @@
-package com.example.throunapp;
-
-import org.controlsfx.control.WorldMapView;
-
 public class Location {
     public Location(String country, String address, String city) {
         Country = country;

@@ -1,5 +1,3 @@
-package com.example.throunapp;
-
 import java.util.Calendar;
 
 public class DropOff {

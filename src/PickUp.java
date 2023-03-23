@@ -1,5 +1,3 @@
-package com.example.throunapp;
-
 public class PickUp {
     public PickUp(Time time, Location location, int noOfPeoplePickedUp) {
         this.time = time;
