@@ -1,3 +1,5 @@
+package com.example.assignment_4;
+
 public class Booking {
     public Booking(int order, Tours tour, User user, int numOfPeople, PickUp pickUp, DropOff dropOff) {
         this.order = order;
@@ -63,3 +65,4 @@ public class Booking {
     private PickUp pickUp;
     private DropOff dropOff;
 }
+

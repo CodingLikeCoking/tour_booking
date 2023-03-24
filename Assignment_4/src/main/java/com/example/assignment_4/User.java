@@ -1,3 +1,5 @@
+package com.example.assignment_4;
+
 public class User {
     public User(String name, String email, String phone) {
         this.name = name;

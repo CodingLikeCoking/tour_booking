@@ -1,3 +1,5 @@
+package com.example.assignment_4;
+
 public class Location {
     public Location(String country, String address, String city) {
         Country = country;

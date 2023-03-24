@@ -1,8 +1,10 @@
+package com.example.assignment_4;
+
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
-public class Datafactory {
-    public Datafactory(){
+public class DataFactory {
+    public DataFactory(){
 
     }
     public ObservableList<Tours> getTours(){

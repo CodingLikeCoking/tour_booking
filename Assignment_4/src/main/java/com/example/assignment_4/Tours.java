@@ -1,3 +1,5 @@
+package com.example.assignment_4;
+
 public class Tours {
 
     public Tours(String title, String description, int price, String host, Location location, Time dateAndTime, int availability, Review review) {

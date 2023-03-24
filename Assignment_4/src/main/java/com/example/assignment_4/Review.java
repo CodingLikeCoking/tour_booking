@@ -1,3 +1,5 @@
+package com.example.assignment_4;
+
 public class Review {
     private int number;
     private int rating;
