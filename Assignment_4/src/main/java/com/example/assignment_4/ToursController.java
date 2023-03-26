@@ -1,4 +1,4 @@
 package com.example.assignment_4;
 
-public class TourController {
+public class ToursController {
 }

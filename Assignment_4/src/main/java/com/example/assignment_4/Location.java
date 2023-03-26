@@ -2,7 +2,7 @@ package com.example.assignment_4;
 
 public class Location {
     public Location(String country, String address, String city) {
-        Country = country;
+        this.country = country;
         this.address = address;
         this.city = city;
     }
@@ -31,7 +31,7 @@ public class Location {
         this.city = city;
     }
 
-    private String Country;
+    private String country;
 
     private String address;
 
