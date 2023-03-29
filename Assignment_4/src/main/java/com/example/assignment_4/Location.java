@@ -1,26 +1,23 @@
 package com.example.assignment_4;
 
 public class Location {
-    public Location(String country, String address, String city) {
+
+    private String country;
+    private String city;
+    private String address;
+
+    public Location(String country, String city, String address) {
         this.country = country;
-        this.address = address;
         this.city = city;
+        this.address = address;
     }
 
     public String getCountry() {
-        return Country;
+        return country;
     }
 
     public void setCountry(String country) {
-        Country = country;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
+        this.country = country;
     }
 
     public String getCity() {
@@ -31,9 +28,11 @@ public class Location {
         this.city = city;
     }
 
-    private String country;
+    public String getAddress() {
+        return address;
+    }
 
-    private String address;
-
-    private String city;
+    public void setAddress(String address) {
+        this.address = address;
+    }
 }

@@ -1,14 +1,29 @@
 package com.example.assignment_4;
 
-import java.util.Calendar;
-
 public class DropOff {
-    public DropOff(Time time, Location location) {
+
+    // Instance variables
+    private Time time;
+    private Location locations;
+
+    public DropOff(Time time, Location locations) {
         this.time = time;
-        this.location = location;
+        this.locations = locations;
     }
 
-    private Time time;
+    public Time getTime() {
+        return time;
+    }
 
-    private Location location;
+    public void setTime(Time time) {
+        this.time = time;
+    }
+
+    public Location getLocations() {
+        return locations;
+    }
+
+    public void setLocations(Location locations) {
+        this.locations = locations;
+    }
 }

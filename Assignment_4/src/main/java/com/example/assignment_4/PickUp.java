@@ -1,10 +1,16 @@
 package com.example.assignment_4;
 
 public class PickUp {
-    public PickUp(Time time, Location location, int noOfPeoplePickedUp) {
+
+    // Instance variables
+    private Time time;
+    private Location location;
+    private int numOfPeoplePickup;
+
+    public PickUp(Time time, Location location, int numOfPeoplePickup) {
         this.time = time;
         this.location = location;
-        this.noOfPeoplePickedUp = noOfPeoplePickedUp;
+        this.numOfPeoplePickup = numOfPeoplePickup;
     }
 
     public Time getTime() {
@@ -23,18 +29,11 @@ public class PickUp {
         this.location = location;
     }
 
-    public int getNoOfPeoplePickedUp() {
-        return noOfPeoplePickedUp;
+    public int getNumOfPeoplePickup() {
+        return numOfPeoplePickup;
     }
 
-    public void setNoOfPeoplePickedUp(int noOfPeoplePickedUp) {
-        this.noOfPeoplePickedUp = noOfPeoplePickedUp;
+    public void setNumOfPeoplePickup(int numOfPeoplePickup) {
+        this.numOfPeoplePickup = numOfPeoplePickup;
     }
-
-    private Time time;
-
-    private Location location;
-
-    private int noOfPeoplePickedUp;
-
 }

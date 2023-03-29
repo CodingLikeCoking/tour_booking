@@ -1,6 +1,14 @@
 package com.example.assignment_4;
 
 public class Booking {
+
+    private int order;
+    private Tours tour;
+    private User user;
+    private int numOfPeople;
+    private PickUp pickUp;
+    private DropOff dropOff;
+
     public Booking(int order, Tours tour, User user, int numOfPeople, PickUp pickUp, DropOff dropOff) {
         this.order = order;
         this.tour = tour;
@@ -57,12 +65,4 @@ public class Booking {
     public void setDropOff(DropOff dropOff) {
         this.dropOff = dropOff;
     }
-
-    private int order;
-    private Tours tour;
-    private User user;
-    private int numOfPeople;
-    private PickUp pickUp;
-    private DropOff dropOff;
 }
-

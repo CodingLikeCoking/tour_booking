@@ -1,20 +1,30 @@
 package com.example.assignment_4;
 
 public class Tours {
+    // Instance variables
+    // private int number;
+    private String title;
+    private String description;
+    private int price;
+    private String host;
+    private String typeOfTour;
+    private Location location;
+    private Time date;
+    private int availability; // numOfSlotsAvailable??
+    private Review review;
 
-    public Tours(String title, String description, int price, String host, Location location, Time dateAndTime, int availability, Review review) {
+    public Tours(String title, String description, int price, String host, String typeOfTour, Location location,
+            Time date, int availability, Review review) {
         this.title = title;
         this.description = description;
         this.price = price;
         this.host = host;
+        this.typeOfTour = typeOfTour;
         this.location = location;
-        this.dateAndTime = dateAndTime;
+        this.date = date;
         this.availability = availability;
         this.review = review;
     }
-    private String title;
-    private String description;
-
 
     public String getTitle() {
         return title;
@@ -48,6 +58,14 @@ public class Tours {
         this.host = host;
     }
 
+    public String getTypeOfTour() {
+        return typeOfTour;
+    }
+
+    public void setTypeOfTour(String typeOfTour) {
+        this.typeOfTour = typeOfTour;
+    }
+
     public Location getLocation() {
         return location;
     }
@@ -56,12 +74,12 @@ public class Tours {
         this.location = location;
     }
 
-    public Time getDateAndTime() {
-        return dateAndTime;
+    public Time getDate() {
+        return date;
     }
 
-    public void setDateAndTime(Time dateAndTime) {
-        this.dateAndTime = dateAndTime;
+    public void setDate(Time date) {
+        this.date = date;
     }
 
     public int getAvailability() {
@@ -79,16 +97,4 @@ public class Tours {
     public void setReview(Review review) {
         this.review = review;
     }
-
-    private int price;
-
-    private String host;
-
-    private Location location;
-
-    private Time dateAndTime;
-
-    private int availability;
-
-    private Review review;
 }

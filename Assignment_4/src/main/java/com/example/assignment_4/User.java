@@ -1,15 +1,16 @@
 package com.example.assignment_4;
 
 public class User {
-    public User(String name, String email, String phone) {
-        this.name = name;
-        this.email = email;
-        this.phone = phone;
-    }
 
     private String name;
+    private String eMail;
+    private String phone;
 
-    private String email;
+    public User(String name, String eMail, String phone) {
+        this.name = name;
+        this.eMail = eMail;
+        this.phone = phone;
+    }
 
     public String getName() {
         return name;
@@ -19,12 +20,12 @@ public class User {
         this.name = name;
     }
 
-    public String getEmail() {
-        return email;
+    public String geteMail() {
+        return eMail;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void seteMail(String eMail) {
+        this.eMail = eMail;
     }
 
     public String getPhone() {
@@ -34,6 +35,4 @@ public class User {
     public void setPhone(String phone) {
         this.phone = phone;
     }
-
-    private String phone;
 }
