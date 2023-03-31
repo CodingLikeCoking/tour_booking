@@ -24,7 +24,7 @@ public class ToursControllerTest {
         int price1 = 100;
         String host1 = "Borgarleikhúsið";
         Location location1 = new Location("Iceland", "Listavegur 3", "Reykjavik");
-        Time dateAndTime1 = new Time(4, 2023, 5, "20:00");
+        Time dateAndTime1 = new Time(2023, 4, 5, "20:00");
         int availability1 = 25;
         int rating1 = 5;
 
